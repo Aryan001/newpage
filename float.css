@@ -1,0 +1,21 @@
+.wrap{
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  background: grey;
+
+}
+.content,aside{
+  height:600px;
+}
+.content{
+  background: green;
+  float:left;
+  width: 60%;
+}
+aside{
+  background: blue;
+  float: left;
+  width: 40%;
+  padding-left: 0px;
+}
