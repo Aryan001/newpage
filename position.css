@@ -1,0 +1,21 @@
+#div1.wrap{
+  background:orange;
+  height:200px;
+  width:400px;
+}
+#div2_1.gen{
+  background:blue;
+  position:absolute;
+  left:50px;
+  top:50px;
+  width:100px;
+  height:100px;
+}
+#div2_2.men{
+  background: grey;
+  width:100px;
+  height:100px;
+  position:absolute;
+  left:100px;
+  top:50px;
+}
