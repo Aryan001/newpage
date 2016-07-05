@@ -1,0 +1,10 @@
+li{
+  display:inline;
+  padding-left: 20px;
+  font-family: sans-serif;
+  margin-left: 0px;
+
+}
+li a:hover{
+  color: black;
+}

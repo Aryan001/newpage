@@ -1,0 +1,22 @@
+a img
+{
+  width: 400px;
+  height: 200px;
+float:left;
+}
+.wrap{
+  background:url(images/book3.jpg) no-repeat;
+  background-size: cover;
+  padding-left: 420px;
+  margin-bottom: 0px;
+
+}
+.body
+{
+  margin-top: 0px;
+  padding-left: 20px;
+  float: right;
+  width: 800px;
+  margin-right: 100px;
+  font-family: sans-serif;
+}
