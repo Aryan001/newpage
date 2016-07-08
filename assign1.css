@@ -1,4 +1,4 @@
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,7 +36,6 @@ font-family: 'PT Sans Narrow', sans-serif;
   text-align: justify;
 }
 .main{
-  background: url(images/col.jpg);
 }
 
 h1
@@ -92,6 +91,8 @@ li.dropdown {
 }
 
 #one,#two{
+  margin-top: 50px;
+  margin-bottom: 50px;
   width:200px;
   height:200px;
 }
@@ -117,11 +118,13 @@ li.dropdown {
   margin-left: 220px;
 }
 #cover{
+  padding-top: 5px;
   padding-left: 220px;
 }
 #release
 {
   text-align: center;
+  color:blue;
 }
 .mar
 {
@@ -136,3 +139,124 @@ li.dropdown {
 {
   text-align: center;
 }
+#cover1{
+  padding-top: 6px;
+  padding-left: 7px;
+}
+.container_12
+{
+  padding-left: 0px;
+}
+#stack
+{
+  float: left;
+  margin-top:-50px;
+  padding-left: 20px;
+  width:250px;
+  height:250px;
+  margin-bottom: 20px;
+}
+.leader{
+  color:green;
+}
+#quote
+{
+  margin-left: 300px;
+  text-align: justify;
+  margin-right: 150px;
+  letter-spacing: 2px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#vid
+{
+  margin-top: 650x;
+  margin-left: -80px;
+}
+#speech{
+  margin-right: 300px;
+  margin-top: 45px;
+  margin-left: -100px;
+  color:green;
+}
+.grid_4
+{
+  float: left;
+  position:relative;
+  top:2px;
+  left:20px;
+  text-align: justify;
+  display: inline-block;
+  font-family: 'Questrial', sans-serif;
+}
+.foo{
+  margin-left: 100px;
+}
+#last
+{
+  position: relative;
+  margin-left: 150px;
+  top: 50px;
+}
+#werl
+{
+  color:white;
+}
+#join
+{
+  margin-left: 0px;
+}
+#onefoot
+{
+  margin-left: -20px;
+    color:#7FFF00;
+}
+#twofoot
+{
+  margin-left: -20px;
+  color:#7FFF00;
+}
+#onefoot_1
+{
+  margin-top: 230px;
+  margin-left: -20px;
+  color:#7FFF00
+}
+#job
+{
+  background: red;
+}
+#offer
+{
+  color:green;
+  margin-top: 10px;
+}
+#offersale{
+  float:left;
+  margin-top:-523px;
+  width:175px;
+  height:500px;
+}
+#sale{
+  float:right;
+  width:400px;
+  height:100px;
+  margin-top: -650px;
+  margin-right: 20px;
+}
+#head
+{
+  color:green;
+}
+.preorder
+{
+  float:left;
+  display: inline;
+}
+#imagehover
+{
+  background-color:#746588;
+   padding: 10px;
+   display: none;
+}
+span:hover + #imagehover{
+    display: block;
