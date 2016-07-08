@@ -115,8 +115,7 @@ li.dropdown {
   position:relative;
   top:0;
   padding-left:40px;
-
-  background: orange;
+  background: #92F22A;
 }
 .sign{
   float:left;
@@ -223,9 +222,9 @@ li.dropdown {
 }
 #onefoot_1
 {
-  margin-top: 230px;
+  margin-top: 245px;
   margin-left: -20px;
-  color:#00B5B5
+  color:#00B5B5;
 }
 
 #offer
@@ -279,4 +278,45 @@ text-align: justify;
   margin-bottom: 10px;
   width:200px;
   height:200px;
+}
+#count
+{
+  padding-top: 0px;
+  margin-top: -200px;
+  width:500px;
+  height:100px;
+}
+#search
+{
+  padding-left: 40px;
+}
+#hov{
+  margin-top: 21px;
+  width: 400px;
+    height: 200px;
+    background:url(images/nat45.gif);
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+#hov:hover{
+  width: 1230px;
+    height: 430px;
+}
+#lib
+{
+  background: url(images/lib.jpg) ;
+  background-attachment: fixed;
+  width:100%;
+  height:900px;
+  top:-50px;
+  color:white;
+
+  padding-top: 50px;
+}
+#spa{
+ color:#FD5B03;
+}
+#spa2
+{
+  color:#D33257;
 }
