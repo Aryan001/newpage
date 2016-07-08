@@ -6,9 +6,13 @@ ul{
     background-color: #333;
 }
 body{
-  background:url( assign1.jpg);
-  background-size: cover;
+  background:url(assign1.jpg) ;
+    background-size: cover;
 
+}
+#newspage{
+  background:url(assign1.jpg);
+  background-size: cover;
 }
 .one
 {
@@ -18,12 +22,13 @@ float:left;
 padding-left: 20px;
 }
 .wrap{
-  background:url(images/download.jpg) no-repeat;
+background:url(images/download.jpg) no-repeat;
   background-size: cover;
   padding-left: 420px;
   margin-bottom: 0px;
   margin-right:100px;
   margin-left: 20px;
+
 }
 .body
 {
@@ -115,7 +120,7 @@ li.dropdown {
 }
 .sign{
   float:left;
-  margin-left: 220px;
+  margin-left: 800px;
 }
 #cover{
   padding-top: 5px;
@@ -203,7 +208,8 @@ li.dropdown {
 }
 #join
 {
-  margin-left: 0px;
+  margin-left: -10px;
+
 }
 #onefoot
 {
@@ -213,18 +219,15 @@ li.dropdown {
 #twofoot
 {
   margin-left: -20px;
-  color:#7FFF00;
+  color:#00B5B5
 }
 #onefoot_1
 {
   margin-top: 230px;
   margin-left: -20px;
-  color:#7FFF00
+  color:#00B5B5
 }
-#job
-{
-  background: red;
-}
+
 #offer
 {
   color:green;
@@ -254,9 +257,26 @@ li.dropdown {
 }
 #imagehover
 {
-  background-color:#746588;
+  background-color:black;
+
    padding: 10px;
    display: none;
 }
 span:hover + #imagehover{
     display: block;
+}
+#onefoot_rel
+{
+  margin-top: 100px;
+  margin-left: 20px;
+  color:#7FFF00
+}
+#mark
+{
+text-align: justify;
+  margin-left: 50px;
+  float:left;
+  margin-bottom: 10px;
+  width:200px;
+  height:200px;
+}
