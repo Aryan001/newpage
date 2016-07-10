@@ -1,4 +1,4 @@
-ul{
+ul li{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,7 +8,6 @@ ul{
 body{
   background:url(assign1.jpg) ;
     background-size: cover;
-
 }
 #newspage{
   background:url(assign1.jpg);
@@ -16,10 +15,12 @@ body{
 }
 .one
 {
+  margin-top: 25px;
   width: 400px;
   height: 200px;
 float:left;
 padding-left: 20px;
+
 }
 .wrap{
 background:url(images/download.jpg) no-repeat;
@@ -27,6 +28,7 @@ background:url(images/download.jpg) no-repeat;
   padding-left: 420px;
   margin-bottom: 0px;
   margin-right:100px;
+  margin-top: 25px;
   margin-left: 20px;
 
 }
@@ -38,6 +40,7 @@ background:url(images/download.jpg) no-repeat;
   width: 800px;
   margin-right: 100px;
 font-family: 'PT Sans Narrow', sans-serif;
+font-size: 15px;
   text-align: justify;
 }
 .main{
@@ -101,8 +104,18 @@ li.dropdown {
   width:200px;
   height:200px;
 }
+.grid_4
+{
+  float: left;
+  position:relative;
+  top:2px;
+  left:20px;
+  text-align: justify;
+  display: inline-block;
+  font-family: 'Questrial', sans-serif;
+}
 
-.grid_5
+.whole grid_5
 {
   position:relative;
   top:2px;
@@ -117,10 +130,7 @@ li.dropdown {
   padding-left:40px;
   background: #92F22A;
 }
-.sign{
-  float:left;
-  margin-left: 800px;
-}
+
 #cover{
   padding-top: 5px;
   padding-left: 220px;
@@ -170,6 +180,7 @@ li.dropdown {
   margin-right: 150px;
   letter-spacing: 2px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  color:black;
 }
 #vid
 {
@@ -182,19 +193,7 @@ li.dropdown {
   margin-left: -100px;
   color:green;
 }
-.grid_4
-{
-  float: left;
-  position:relative;
-  top:2px;
-  left:20px;
-  text-align: justify;
-  display: inline-block;
-  font-family: 'Questrial', sans-serif;
-}
-.foo{
-  margin-left: 100px;
-}
+
 #last
 {
   position: relative;
@@ -207,8 +206,6 @@ li.dropdown {
 }
 #join
 {
-  margin-left: -10px;
-
 }
 #onefoot
 {
@@ -272,17 +269,17 @@ span:hover + #imagehover{
 }
 #mark
 {
-text-align: justify;
-  margin-left: 50px;
-  float:left;
-  margin-bottom: 10px;
-  width:200px;
-  height:200px;
+  float: left;
+  margin-top:-40px;
+  padding-left: 20px;
+  width:250px;
+  height:250px;
+  margin-bottom: 20px;
 }
 #count
 {
   padding-top: 0px;
-  margin-top: -200px;
+  margin-top: -100px;
   width:500px;
   height:100px;
 }
@@ -291,15 +288,15 @@ text-align: justify;
   padding-left: 40px;
 }
 #hov{
-  margin-top: 21px;
-  width: 400px;
+    padding-top: 20px;
+    width: 400px;
     height: 200px;
     background:url(images/nat45.gif);
     -webkit-transition: width 1s, height 1s;
     transition: width 1s, height 1s;
 }
 #hov:hover{
-  width: 1230px;
+  width: 1240px;
     height: 430px;
 }
 #lib
@@ -310,7 +307,6 @@ text-align: justify;
   height:900px;
   top:-50px;
   color:white;
-
   padding-top: 50px;
 }
 #spa{
@@ -319,4 +315,171 @@ text-align: justify;
 #spa2
 {
   color:#D33257;
+}
+#girl
+{
+  width:200px;
+  height:200px;
+  opacity: 0.5;
+}
+#girl:hover{
+  opacity: 1;
+}
+#sav
+{
+  background: url(images/bo.jpg) ;
+  background-attachment: fixed;
+  width:100%;
+  height:1200px;
+  color:white;
+  padding-top: 50px;
+  margin-top: -20px;
+}
+.sign
+{
+float: right;
+margin-left: 880px;
+}
+#job
+{
+  padding-top: 20px;
+padding-bottom: 10px;
+background: url(images/foot.jpg);
+}
+.sign_1
+{
+  float:right;
+  margin-left: 750px;
+}
+.web
+{
+  margin-top: 0px;
+  padding-left: 5px;
+}
+#parker
+{
+  padding-top: 70px;
+  padding-left: 30px;
+}
+#gaya
+{
+  margin-top: -20px;
+}
+#whole_1
+{
+  margin-top: 60px;
+}
+.sign_rel
+{
+  margin-left: 880px;
+}
+#save
+{
+  background: url(images/asw.jpg) ;
+  background-attachment: fixed;
+  width:100%;
+  height:780px;
+  color:white;
+  padding-top: 50px;
+  margin-top: -20px;
+}
+.grid_2
+{
+  margin-left: 10px;
+  padding-left: 20px;
+}
+#whole_2
+{
+  margin-top: 0px;
+}
+#lens
+{
+  background: url(images/sdf.jpg) ;
+  background-attachment: fixed;
+  width:100%;
+  height:700px;
+  color:white;
+  padding-top: 50px;
+  margin-top: -20px;
+}
+#partone{
+  margin-top: 10px;
+}
+#parttwo
+{
+  margin-top: 70px;
+}
+#enough
+{
+  margin-top: 50px;
+}
+#part{
+  margin-top: 10px;
+
+}
+#pass
+{
+  color:red;
+  margin-top:6px;
+
+}
+#ref
+{
+  color: red;
+}
+#san
+{
+  margin-top: 10px;
+}
+#rock
+{
+
+  color:#F04903;
+  font-size: 15px;
+}
+#water
+{
+  color: #EBBD63;
+}
+#lav
+{
+  padding-left: 5px;
+  text-decoration: none;
+  color: #00B5B5;
+}
+#job_2
+{
+  margin-top: 360px;
+  padding-top: 20px;
+padding-bottom: 50px;
+background: url(images/foot.jpg);
+}
+#whole_6
+{
+  margin-top: 50px;
+}
+#job_3
+{
+  margin-top: 0px;
+  padding-top: 20px;
+padding-bottom: 20px;
+background: url(images/foot.jpg);
+}
+#bla
+{
+  padding left:100px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-right: 250px;
+  color:#E75926;
+}
+#passrel
+{
+  color:red;
+  margin-top:-13px;
+}
+#peb
+{
+  font-size: 2em;
+  text-decoration: none;
 }
