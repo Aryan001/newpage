@@ -364,6 +364,7 @@ background: url(images/foot.jpg);
   padding-top: 70px;
   padding-left: 30px;
 font-family: 'Montserrat', sans-serif;
+color:#F7D00D;
   letter-spacing: 5px;
 }
 
@@ -471,8 +472,6 @@ background: url(images/foot.jpg);
 padding-bottom: 20px;
 background: url(images/foot.jpg);
 }
-
-
 #bla
 {
   padding left:100px;
@@ -530,4 +529,27 @@ fast:hover{
   padding-left: 400px;
   width:90px;
   height:90px;
+}
+#inc
+{
+  margin-top: -60px;
+  font-size: 40px;
+    color:#EE543A;
+}
+#logo1
+{
+  padding-top: 2px;
+  padding-left: 490px;
+  width:50px;
+  height:50px;
+}
+#black
+{
+  padding-top: -20px;
+  margin-top: -38px;
+  padding-bottom: 30px;
+  opacity:0.5;
+  background: black;
+  margin-left: 350px;
+  margin-right: 350px;
 }
