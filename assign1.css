@@ -15,10 +15,11 @@ body{
 }
 .one
 {
-  margin-top: 25px;
+  margin-top: 13px;
   width: 400px;
   height: 200px;
 float:left;
+
 padding-left: 20px;
 
 }
@@ -28,9 +29,8 @@ background:url(images/download.jpg) no-repeat;
   padding-left: 420px;
   margin-bottom: 0px;
   margin-right:100px;
-  margin-top: 25px;
+  margin-top: 13px;
   margin-left: 20px;
-
 }
 .body
 {
@@ -39,13 +39,12 @@ background:url(images/download.jpg) no-repeat;
   float: right;
   width: 800px;
   margin-right: 100px;
-font-family: 'PT Sans Narrow', sans-serif;
-font-size: 15px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 15px;
   text-align: justify;
-}
-.main{
-}
+  margin-bottom: 0;
 
+}
 h1
 {
   text-align:center;
@@ -230,6 +229,7 @@ li.dropdown {
   margin-top: 10px;
 }
 #offersale{
+  margin-left: 10px;
   float:left;
   margin-top:-523px;
   width:175px;
@@ -239,8 +239,8 @@ li.dropdown {
   float:right;
   width:400px;
   height:100px;
-  margin-top: -650px;
-  margin-right: 20px;
+  margin-top: -700px;
+  margin-right: 50px;
 }
 #head
 {
@@ -282,6 +282,7 @@ span:hover + #imagehover{
   margin-top: -100px;
   width:500px;
   height:100px;
+  margin-left: 10px;
 }
 #search
 {
@@ -297,14 +298,14 @@ span:hover + #imagehover{
 }
 #hov:hover{
   width: 1240px;
-    height: 430px;
+    height: 350px;
 }
 #lib
 {
   background: url(images/lib.jpg) ;
   background-attachment: fixed;
   width:100%;
-  height:900px;
+  height:1080px;
   top:-50px;
   color:white;
   padding-top: 50px;
@@ -323,7 +324,7 @@ span:hover + #imagehover{
   opacity: 0.5;
 }
 #girl:hover{
-  opacity: 1;
+  opacity: 5;
 }
 #sav
 {
@@ -358,9 +359,14 @@ background: url(images/foot.jpg);
 }
 #parker
 {
+  margin-top: 150px;
+  text-align: center;
   padding-top: 70px;
   padding-left: 30px;
+font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
 }
+
 #gaya
 {
   margin-top: -20px;
@@ -434,7 +440,7 @@ background: url(images/foot.jpg);
 #rock
 {
 
-  color:#F04903;
+  color:white;
   font-size: 15px;
 }
 #water
@@ -445,12 +451,12 @@ background: url(images/foot.jpg);
 {
   padding-left: 5px;
   text-decoration: none;
-  color: #00B5B5;
+  color: white;
 }
 #job_2
 {
-  margin-top: 360px;
-  padding-top: 20px;
+  margin-top: 280px;
+  padding-top: 30px;
 padding-bottom: 50px;
 background: url(images/foot.jpg);
 }
@@ -465,6 +471,8 @@ background: url(images/foot.jpg);
 padding-bottom: 20px;
 background: url(images/foot.jpg);
 }
+
+
 #bla
 {
   padding left:100px;
@@ -482,4 +490,44 @@ background: url(images/foot.jpg);
 {
   font-size: 2em;
   text-decoration: none;
+}
+#web
+{
+  margin-top: -24px;
+}
+#right
+{
+  margin-top: -80px;
+  color:#EE543A;
+  font-size:50px;
+}
+#fast
+{
+  display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+fast:hover{
+  box-shadow: 0 0 2px 1px rgba
+    (0, 140, 186, 0.5);
+}
+#peb{
+  color:white;
+}
+#free
+{
+  color: white;
+}
+#jab{
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+#logo
+{
+  padding-top: 20px;
+  padding-left: 400px;
+  width:90px;
+  height:90px;
 }
