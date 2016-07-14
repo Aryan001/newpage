@@ -13,38 +13,39 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-#features{
-  text-align: center;
+.thumbnail{
+  width:200px;
+  height:570px;
 }
-#features img
+.thumbail img{
+  width:200px;
+  height:200px;
+}
+#buy{
+  width:200px;
+  height:200px;
+}
+#mymodal
 {
-  margin: 0 0 20px;
+  height:800px;
 }
+
+
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
-.well .page-header
-{
-  margin-top: 0px;
-}
-.well .page-header h1
-{
-  margin-top: 0px;
-}
 
-.well{
-  margin: 20px 0px;
-}
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   #search
+ #search
    {
      width:200px;
    }
-   .navbar-brand
+
+.navbar-brand
    {
      padding: 13px 15px;
    }
@@ -63,7 +64,7 @@ Notes:	 Hand coded for Udemy.com
 #mycarousel
 {
 
-  margin-top: 31px;
+  margin-top: 10px;
   height:400px;
   margin-right: 0px;
   margin-bottom: 20px;
@@ -97,38 +98,109 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-   .alert
-   {
-     margin-top: 20px;
-     display: none;
-   }
-   .tabbable img.thumbnail
-   {
-     margin:0 20px 10px 0;
-   }
+
+
 
  .ji{
-   float:left;
+
    margin-top: 100px;
  }
 .list
 {
   border: 1px solid #ddd;
   line-height: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
+.line
+{
+  background-color:blue;
+  width:1075px;
+  height:5px;
+}
+#book2
+{
+  margin-top: 25px;
+}
+#book
+{
+  margin-top: 25px;
+}
+.note{
+  padding-left: 50px;
+}
+.review{
+  background-color: grey;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.value{
+  background-color: grey;
+}
+#buy{
+  margin-right: 15px;
+}
+#move
+{
+  margin-left: 15px;
+}
+#circle
+{
+  border: 2px solid green;
+  padding-top: 7px;
+  border-radius: 50%;
+  width:35px;
+  height: 35px;
+  text-align: center;
+
+}
+#foot
+{
+  background: url('../../images/foot.jpg');
+  background-size: cover;
+}
+#rock
+{
+  color:white;
+}
+#sa
+{
+  margin-top: 8px;
+}
+#lav
+{
+  margin-left: 10px;
+}
+
+
+
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+.list{
+  margin-top: 10px;
+}
+.sign{
+  margin-left: 15px;
+}
+.review{
+  margin-left:0px;
+  margin-top: 10px;
+}
+.note{
+  margin-top: 230px;
+  margin-left: -40px;
+}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-
+  .list{
+    margin-top: 20px;
+  }
   #slide1
   {
     background: url('../../images/asw.jpg') top center no-repeat;
@@ -146,7 +218,9 @@ Notes:	 Hand coded for Udemy.com
 
 /* Large desktop */
 @media (min-width: 1200px) {
-
+  .list{
+    margin-top: 10px;
+  }
 
   #slide1
   {
