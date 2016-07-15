@@ -16,6 +16,7 @@
 
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome/font-awesome-4.6.3/css/font-awesome.min.css">
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
@@ -23,79 +24,58 @@
 	</head>
 	<body>
 	 <div class="container" id="main">
-		<div class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
+	 <div class="navbar navbar-default navbar-fixed-top">
+	 <div class="container">
+			<div class="navbar-header">
 				<button class="navbar-toggle collapsed" data-target="#navbar-collapse-1" data-toggle="collapse" type="button">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+					      <span class="icon-bar"></span>
+					      <span class="icon-bar"></span>
+					      <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img src="images/logo.png" alt="yourlogo"></a>
+			   <a class="navbar-brand" href="#"><img id="logo" src="images/log.png" alt="yourlogo"></a>
 			</div>
-				<div class="collapse navbar-collapse" id="navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#">Home</a>
-						</li>
+	    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+				<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories
-<strong class="caret"></strong></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<strong class="caret"></strong></a>
             <ul class="dropdown-menu">
-							<li>
-								<a href="#">Journals</a>
-							</li>
-							<li>
-								<a href="#">Fiction</a>
-							</li>
-							<li>
-								<a href="#">Thrillers</a>
-							</li>
-							<li class="divider"></li>
-								<li class="dropdown-header">More Sections</li>
-								<li>
-									<a href="#">Adventures</a>
-								</li>
-								<li>
-									<a href="#">Crime-Thrillers</a>
-								</li>
-				</ul>
-			</li>
-			<li><a href="#">New Releases & Preorders</a></li>
+						<li><a href="#">Journals</a></li>
+						<li><a href="#">Fiction</a></li>
+						<li><a href="#">Thrillers</a></li>
+						<li class="divider"></li>
+					  <li class="dropdown-header">More Sections</li>
+						<li><a href="#">Adventures</a></li>
+						<li><a href="#">Crime-Thrillers</a></li>
+				    </ul>
+			      </li>
+			      <li><a href="#">New Releases & Preorders</a></li>
 			</ul>
 			<form class="navbar-form navbar-left">
-				<input type="text" class="form-control" placeholder="search the site" id="search">
-				<button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-search"></span></button>
+			   	<input type="text" class="form-control" placeholder="search the site" id="search">
+			  	<button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-search"></span></button>
      </form>
 
 		 <ul class="nav navbar-nav navbar-right">
 				 <li class="dropdown">
-					 	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account<strong class="caret"></strong></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account<strong class="caret"></strong></a>
 					<ul class="dropdown-menu">
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
-						</li>
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
-						</li>
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a>
-						</li>
-						<li class="divider"></li>
-							<li>
-								<a href="#"><span class="glyphicon glyphicon-off"></span>Sign Out</a>
-							</li>
-			</ul>
-		</li>
-	<button type="button" class="btn btn-default navbar-btn sign"> Sign In </button></li>
-	</ul>
-	 </div>
-			</div>
-		</div>
-<div class="row ji">
+					<li>	<a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a></li>
+				  <li><a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a></li>
+					<li class="divider"></li><li>
+					<a href="#"><span class="glyphicon glyphicon-off"></span>Sign Out</a></li>
+			    </ul>
+		      </li>
+	        <button type="button" class="btn btn-default navbar-btn sign"> Sign In </button></li>
+	  </ul>
+	</div>
+	</div>
+	</div>
+  <div class="row ji">
 			<div class="col-md-2 list" >
-       <ul class="list-unstyled">
-				 <h5 class="header">Popular Book Categories</h5>
+         <ul class="list-unstyled mark">
+				 <h5 class="head">Popular Book Categories</h5>
 				 <li><a href="#">Arts & Photography</a></li>
          	<li><a href="#">Autobiographies</a></li>
 					<li><a href="#">Comics</a></li>
@@ -108,79 +88,91 @@
 					<li><a href="#">Philosophy</a></li>
 					<li><a href="#">Religion</a></li>
 					<li><a href="#">Sports</a></li>
-				</ul>
+				  </ul>
 			</div>
 		 <div class="col-md-10">
-			 		<div class="carousel slide" id="mycarousel">
-			 			<ol class="carousel-indicators">
+			 	<div class="carousel slide" id="mycarousel">
+			 			  <ol class="carousel-indicators">
 			 				<li class="active" data-slide-to="0" data-target="#mycarousel"></li>
 			 				<li data-slide-to="1" data-target="#mycarousel"></li>
 			 				<li  data-slide-to="2" data-target="#mycarousel"></li>
-			 			</ol>
-			 			<div class="carousel-inner">
-			        <div class="item active" id="slide1">
-			            <div class="carousel-caption">
+			 			  </ol>
+			 	<div class="carousel-inner">
+			     <div class="item active" id="slide1">
+			        <div class="carousel-caption">
 			 						 <h4>Neil</h4>
 			 						 <p>No two persons ever read the same book.</p>
-			 					 </div>
-			 			 </div>
-			 			 <div class="item" id="slide2">
-			            <div class="carousel-caption">
-			 						 <h4>Timeout2</h4>
-			 						 <p>Bootstrap follows mobile-first approach--2</p>
-			 					 </div>
-			 			 </div>
-			 			 <div class="item" id="slide3">
-			            <div class="carousel-caption">
-			 						 <h4>Timeout3</h4>
-			 						 <p>Bootstrap follows mobile-first approach--3</p>
-			 					 </div>
-			 			 </div>
-			 			</div>
-			 			<a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
-			 			<a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+			 				 </div>
 			 		</div>
+			 <div class="item" id="slide2">
+			    <div class="carousel-caption">
+			 				 <h4>Amish</h4>
+			 				 <p>A reader lives a thousand lives before he dies</p>
+			 	  </div>
 			 </div>
+			 <div class="item" id="slide3">
+			    <div class="carousel-caption">
+			 					 <h4>Stephen king</h4>
+			 					 <p>Books are uniquely portable magic</p>
+			 		</div>
+			 	</div>
+			 </div>
+			 	<a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+			 	<a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+			 </div>
+			</div>
 		 </div>
-		<div class="row" id="featuresheading">
-			<div class="col-12">
-			<h2 id="move">FICTION</h2>
-		</div>
-	</div>
-	<div class="line">
-	</div>
+		 <div class="row" id="featuresheading">
+			   <h2 id="move">FICTION</h2>
+	       <div class="line">
+	      </div>
+    </div>
 		<div class="row" id="book">
-      <div class="col-sm-6 col-md-3">
-       <div class="thumbnail">
-        <img src="../../images/book4.jpg" alt="book4">
-        <div class="caption">
-         <h3>Revolution 2020</h3>
-        <p>Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat .</p>
-          <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-danger" role="button">Read Online</a></p>
-						<button type="button" class="btn btn-warning btn-lg btn-block">Add to wish-List</button>
+			 <div class="col-12">
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="../../images/book4.jpg" alt="book4">
+            <div class="caption">
+            <h3>Revolution 2020</h3>
+            <p>Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat .</p>
+            <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-danger" role="button">Read Online</a></p>
+            <a href="#mymodal1" role="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal">Add to wish-List</a>
+						<div class="modal fade" id="mymodal1">
+						<div class="modal-dialog">
+					   	<div class="modal-content">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title"><img id="logo" src="images/log.png" alt="yourlogo"></h4>
+									<div class="modal-body">
+							<div class="alert alert-success" role="alert">Your Book is successfully added to your wishlist</div>
+							</div>
+						  </div>
+							</div>
+							</div>
+						</div>
        </div>
        </div>
        </div>
-			 <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
+		 <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
          <img src="../../images/mar3.jpg" alt="book4">
          <div class="caption">
-          <h3>The Adventures of Sherlock Holmes</h3>
-         <p>Sherlock Holmes is a fictional private detectiveby Sir Arthur Conan Doyle.</p>
+           <h3>The Adventures of Sherlock Holmes</h3>
+           <p>Sherlock Holmes is a fictional private detectiveby Sir Arthur Conan Doyle.</p>
            <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-danger" role="button">Read Online</a></p>
-					 	<button type="button" class="btn btn-warning btn-lg btn-block">Add to wish-List</button>
-
+					 <button type="button" class="btn btn-warning btn-lg btn-block">Add to wish-List</button>
         </div>
         </div>
         </div>
+		    </div>
 				<div class="col-sm-6 col-md-3">
 	       <div class="thumbnail">
 	        <img src="../../images/mar4.jpg" alt="book4">
 	        <div class="caption">
-	         <h3>Catching Fire</h3>
+	        <h3>Catching Fire</h3>
 	        <p>Catching Fire is a 2009 science fiction young adult novel by the American novelist Suzanne Collins.The book has sold 19 million copies</p>
-	          <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-danger" role="button">Read Online</a></p>
-							<button type="button" class="btn btn-warning btn-lg btn-block">Add to wish-List</button>
+	        <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-danger" role="button">Read Online</a></p>
+					<button type="button" class="btn btn-warning btn-lg btn-block">Add to wish-List</button>
 	       </div>
 	       </div>
 	       </div>
@@ -199,11 +191,11 @@
 						 			<div class="modal-content">
 						 				<div class="modal-header">
 						 					<button class="close" data-dismiss="modal">&times;</button>
-						 					<h4 class="modal-title">Just Books!!</h4>
+						 					<h4 class="modal-title"><img id="logo" class="image-responsive" src="images/log.png" alt="yourlogo"></h4>
 						 					<div class="modal-body">
 												<h4>All The Light We cannot See</h4>
 												<div class="thumbnail pull-left" id="buy">
-						 					  <img src="../../images/pro.jpg" alt="pro" id="buy">
+						 					  <img src="../../images/pro.jpg" class="image-responsive"  alt="pro" id="buy">
 						 				</div>
 										<div class="note">
 										<p>
@@ -211,7 +203,7 @@
 										<p><h5>Publisher:Scholastic Press</h5></p>
 						 			</div>
 									<div class="review">
-										<h4>REVIEW & RATING</h4>
+										<h4 id="caps">Review & Rating</h4>
 									</div>
 									<div class="row">
 										<div class="col-md-2">
@@ -232,24 +224,16 @@
                    <button type="button" class="btn btn-warning btn-lg btn-block"><span class="glyphicon glyphicon-lock"></span> Add to Bag</button>
 									 <br>
 									 <p class="text-muted"><span class="glyphicon glyphicon-heart"></span> SAVE FOR LATER</p>
-
-
-								 </div>
+								</div>
 								</div>
 						 		</div>
 						 		</div>
-						 			</div>
-
+						 	</div>
  	       </div>
  	       </div>
  	       </div>
 			 </div>
-				 <nav>
-  <ul class="pager">
-    <li><a href="#">Previous</a></li>
-    <li><a href="#">Next</a></li>
-  </ul>
-</nav>
+
       </div>
 			<div class="row" id="featuresheading">
 				<div>
@@ -258,12 +242,12 @@
 		</div>
 		<div class="line">
 		</div>
-			<div class="row" id="book2">
+			<div class="row" id="book">
 				<div class="col-sm-6 col-md-3">
 				 <div class="thumbnail">
 					<img src="../../images/mar2.jpg" alt="book4">
 					<div class="caption">
-					 <h3>Revolution 2020</h3>
+					 <h3>The 3 mistakes of my life</h3>
 					<p>Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat .</p>
 						<p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-danger" role="button">Read Online</a></p>
 							<button type="button" class="btn btn-warning btn-lg btn-block">Add to wish-List</button>
@@ -314,7 +298,7 @@
 	 <footer id="foot">
   <div class="container">
 		<div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-4 col-md-3 col-lg-3">
 <h2>Recent Posts</h2>
 <div id="rock">
    <img class="img-circle" id="sa" src="images/tech.jpg" width="50px" height="50px" alt="offer" /><a id="lav" href="#">Push Your Limits!!</a><br>
@@ -325,12 +309,12 @@
 <h2>About Us</h2>
 <div id="rock">
   <ul class="list-unstyled">
-		<li><a href="#">Sign in</a></li>
-<li><a href="#">Contacts</a></li>
-<li><a href="#">Subscribe</a></li>
-<li><a href="#">FAQs</a></li>
-<li><a href="#">Cookie Policy</a></li>
-<li><a href="#">Terms & Conditions</a></li>
+		<li><a id="wall" href="#">Sign in</a></li>
+<li><a id="wall" href="#">Contacts</a></li>
+<li><a id="wall" href="#">Subscribe</a></li>
+<li><a id="wall" href="#">FAQs</a></li>
+<li><a id="wall" href="#">Cookie Policy</a></li>
+<li><a id="wall" href="#">Terms & Conditions</a></li>
 </ul>
 </div>
 </div>
@@ -338,18 +322,22 @@
 <h2>Help</h2>
 <div id="rock">
 <ul class="list-unstyled">
-<li><a href="#">Help Center</a></li>
-<li><a href="#">Get Started</a></li>
-<li><a href="#">Contacts Us</a></li>
+<li><a id="wall" href="#">Help Center</a></li>
+<li><a id="wall" href="#">Get Started</a></li>
+<li><a id="wall" href="#">Contacts Us</a></li>
 </ul>
 </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 col-md-4">
 <h2>Join Us</h2>
 <div id="peb">
 		<button type="button" class="btn btn-warning btn-lg btn-block">Sign in with Google</button>
-		   <h3>----------------------&---------------------</h3>
+	     <br>
 				<button type="button" class="btn btn-warning btn-lg btn-block">Sign in with facebook</button>
+				<br>
+				<a id="bar1" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a id="bar" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a id="bar" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 </div>
 </div>
 </div>

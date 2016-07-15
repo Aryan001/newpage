@@ -1,14 +1,3 @@
-/*
-
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
 
 /* --------------------------------------
    Layout
@@ -28,6 +17,13 @@ Notes:	 Hand coded for Udemy.com
 #mymodal
 {
   height:800px;
+}
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
 }
 
 
@@ -68,6 +64,7 @@ Notes:	 Hand coded for Udemy.com
   height:400px;
   margin-right: 0px;
   margin-bottom: 20px;
+
 }
 .carousel-caption{
   font-size: 24px;
@@ -98,23 +95,23 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
-
-
+ .head
+ {
+   color:#D33257;
+ }
  .ji{
-
-   margin-top: 100px;
+   margin-top: 50px;
  }
 .list
 {
-  border: 1px solid #ddd;
-  line-height: 30px;
+  border: 1px solid #3D8EB9;
+  line-height: 29px;
   margin-top: 10px;
 }
 .line
 {
   background-color:blue;
-  width:1075px;
+  width:1155px;
   height:5px;
 }
 #book2
@@ -123,6 +120,7 @@ Notes:	 Hand coded for Udemy.com
 }
 #book
 {
+  padding-left: 40px;
   margin-top: 25px;
 }
 .note{
@@ -132,6 +130,7 @@ Notes:	 Hand coded for Udemy.com
   background-color: grey;
   margin-left: 30px;
   margin-top: 10px;
+  text-transform: uppercase;
 }
 .value{
   background-color: grey;
@@ -169,6 +168,30 @@ Notes:	 Hand coded for Udemy.com
 #lav
 {
   margin-left: 10px;
+  color:#FEC606;
+}
+#wall
+{
+  color:#FEC606;
+}
+#logo
+{
+  height:35px;
+}
+#bar
+{
+  margin-left: 30px;
+  font-size: 2em;
+}
+#bar1
+{
+
+  margin-left: 50px;
+  font-size: 2em;
+}
+#foot
+{
+  color:white;
 }
 
 
@@ -194,12 +217,46 @@ Notes:	 Hand coded for Udemy.com
   margin-top: 230px;
   margin-left: -40px;
 }
+#bar
+{
+  margin-left: 30px;
+  font-size: 2em;
 }
+#bar1
+{
 
+  margin-left: 20px;
+  font-size: 2em;
+}
+#ram
+{
+  text-align: center;
+}
+#book
+{
+  padding-left: 40px;
+}
+}
+@media (max-width: 435px) {
+
+  #book
+  {
+    padding-left: 60px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 325px) {
+  #book
+  {
+    padding-left: 45px;
+  }
+}
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+
   .list{
     margin-top: 20px;
+    display:none;
   }
   #slide1
   {
@@ -213,11 +270,23 @@ Notes:	 Hand coded for Udemy.com
   {
     background: url('../../images/finalsmall.jpg') top center no-repeat;
   }
+  #bar
+  {
+    font-size: 2em;
+  }
+  #bar1
+  {
 
+    font-size: 2em;
+  }
+#search{
+  width:450px;
+}
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
+
   .list{
     margin-top: 10px;
   }
@@ -233,6 +302,15 @@ Notes:	 Hand coded for Udemy.com
   #slide3
   {
     background: url('../../images/finallarge.jpg') top center no-repeat;
+  }
+  #bar
+  {
+    margin-left: 30px;
+    font-size: 2em;
+  }
+  #bar1
+  {
+    font-size: 2em;
   }
 
 }
