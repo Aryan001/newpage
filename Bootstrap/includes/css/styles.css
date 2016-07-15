@@ -237,6 +237,15 @@
   padding-left: 40px;
 }
 }
+@media (max-width: 995px) {
+  .list{
+    display:none;
+  }
+
+
+
+
+}
 @media (max-width: 435px) {
 
   #book
@@ -283,7 +292,11 @@
   width:450px;
 }
 }
-
+@media (max-width: 1200px) {
+  #search{
+    width:450px;
+  }
+}
 /* Large desktop */
 @media (min-width: 1200px) {
 
